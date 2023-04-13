@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Rocher";
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+html {
+  font-size: 80%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #042940, #005c53);
+}
+
+.form-container {
+  display: flex;
+  width: 550px;
+  background-color: white;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 1rem 0.7rem rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+  background-image: url(../../assets/64d01b89.gif);
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+  flex: 0 0 50%;
+}
+
+.non-logo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  flex: 1;
+}
+
+h2 {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Rocher";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  width: 240px;
+  border: none;
+  background-color: #ccd1d1;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  width: 240px;
+  border-radius: 50px;
+  color: white;
+  background-color: #80b918;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #2c3e50;
+  }
+}
+
+.btn-logout {
+  margin: 1rem;
+  //padding: 1rem 1rem 1rem 1rem;
+  width: 60px;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  background-color: #80b918;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: #2c3e50;
+  }
+}
+Link {
+  color: "white";
+}
+.forgotten {
+  cursor: pointer;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+
+  &:hover {
+    font-weight: 700;
+    color: #80b918;
+  }
+}
+
+.create-account {
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 2rem;
+
+  &:hover {
+    color: #80b918;
+  }
+}
+
+.success {
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}

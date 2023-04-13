@@ -1,0 +1,91 @@
+.social-media {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .post-text {
+      margin-bottom: 20px;
+    }
+
+    .post-author-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 14px;
+
+      .author-name {
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      .post-date {
+        color: #999;
+      }
+    }
+
+    .comments-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .comment {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+
+        .comment-text {
+          margin-bottom: 10px;
+        }
+
+        .comment-author-info {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-size: 12px;
+
+          .author-name {
+            font-weight: bold;
+            margin-right: 10px;
+          }
+
+          .comment-date {
+            color: #999;
+          }
+          .backlink {
+            display: flex;
+            align-items: center;
+            color: #999;
+            text-decoration: none;
+            font-size: 3rem;
+          }
+
+          .backlink svg {
+            margin-right: 10px;
+            font-size: 3rem;
+            color: #666;
+          }
+
+          .backlink:hover,
+          .item:hover {
+            color: #a7c243;
+          }
+        }
+      }
+    }
+  }
+}

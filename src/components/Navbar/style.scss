@@ -1,0 +1,33 @@
+@import "../../global.scss";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right bottom, #042940, #005c53);
+  color: white;
+  height: 80px;
+  padding: 0 20px;
+}
+
+.nav-title {
+  margin: 0;
+  font-family: "Rocher", sans-serif;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+  transform: translateY(-2px);
+}

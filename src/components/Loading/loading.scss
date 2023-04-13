@@ -1,0 +1,33 @@
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, #042940, #005c53);
+
+  .spinner {
+    border: 6px solid #80b918;
+    border-top: 6px solid rgba(159, 193, 49, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin-right: 20px;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(159, 193, 49, 0.5);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

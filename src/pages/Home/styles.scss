@@ -1,0 +1,20 @@
+.home {
+  background-image: linear-gradient(to right bottom, #042940, #005c53);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .flexHome {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 40px;
+    }
+  }
+}
